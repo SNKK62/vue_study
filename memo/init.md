@@ -2,7 +2,7 @@
 
 ## Create Project
 ```
-$ npm init vue@3 [project]
+$ npm init vue@2 [project]
 $ cd [project]
 $ npm install
 ```
