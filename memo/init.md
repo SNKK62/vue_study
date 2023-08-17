@@ -1,6 +1,6 @@
 # Initialize
 
-## Crate Project
+## Create Project
 ```
 $ npm init vue@3 [project]
 $ cd [project]
