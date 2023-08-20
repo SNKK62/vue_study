@@ -59,3 +59,9 @@ export default {
 <span v-for="n in 10">{{ n }}</span>
 ```
 - `n`は`0`でなく`1`から始まる
+```vue
+<template v-for="todo in todos" :key="todo.name">
+  <li>{{ todo.name }}</li>
+</template>
+```
+- `key`を指定可能
