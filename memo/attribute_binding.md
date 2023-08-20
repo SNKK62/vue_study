@@ -10,6 +10,15 @@
 ```
 - `v-bind` は頻繁に使うので省略可能
 ```vue
+<MyComponent class="baz" />
+```
+```vue
+<!-- $attrs を使った MyComponent のテンプレート -->
+<p :class="$attrs.class">Hi!</p>
+<span>This is a child component</span>
+```
+- `$attrs.[property]`でプロパティを参照できる
+```vue
 <script>
 export default {
   data() {
