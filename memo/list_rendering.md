@@ -54,3 +54,4 @@ export default {
   </ul>
 </template>
 ```
+- `v-if`と`v-for`が同じ要素にあることは非推奨
