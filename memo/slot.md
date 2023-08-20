@@ -38,3 +38,22 @@ export default {
   <slot>Fallback content</slot>
 </template>
 ```
+```vue
+<MyComponent>
+  <template #header="headerProps">
+    {{ headerProps }}
+  </template>
+
+  <template #default="defaultProps">
+    {{ defaultProps }}
+  </template>
+
+  <template #footer="footerProps">
+    {{ footerProps }}
+  </template>
+</MyComponent>
+```
+```vue
+<slot name="header" message="hello"></slot>
+```
+- この時`headerProps`は`{ message: 'hello' }`となる
