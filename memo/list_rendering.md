@@ -55,3 +55,7 @@ export default {
 </template>
 ```
 - `v-if`と`v-for`が同じ要素にあることは非推奨
+```vue
+<span v-for="n in 10">{{ n }}</span>
+```
+- `n`は`0`でなく`1`から始まる
